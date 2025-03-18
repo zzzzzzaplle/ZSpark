@@ -1,0 +1,20 @@
+功能详情
+Transaction ID：每笔交易的唯一标识符。
+Customer ID：每个客户的唯一标识符。
+Transaction Amount：交易中交换的总金额。
+Transaction Date：交易发生的日期和时间。
+Payment Method：用于完成交易的方式（例如信用卡、PayPal 等）。
+Product Category：交易涉及的产品类别。Home & Garden是一个常见产品类别，包括与家庭和园艺相关的各种商品
+Quantity：交易涉及的产品数量。
+Customer Age：进行交易的客户的年龄。
+Customer Location：客户的地理位置。
+Device Used：用于进行交易的设备类型（例如移动设备、桌面设备）。
+IP Address：用于交易的设备的 IP 地址。
+Shipping Address：产品的发货地址。
+Billing Address：与付款方式关联的地址。
+Is Fraudulent：交易是否欺诈的二进制指标（1 表示欺诈，0 表示合法）。
+Account Age Days：交易时客户账户的期限（以天为单位）。
+Transaction Hour：交易发生的时间。
+
+目的
+该数据集旨在用于开发和测试电子商务交易中欺诈检测的机器学习模型。它还可用于探索性数据分析、特征工程和基准欺诈检测算法。
